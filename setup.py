@@ -26,7 +26,7 @@ setup(
         ],
     entry_points='''
         [console_scripts]
-        transmission-priorgen=transmission.transmission:simulate_prior_stats
+        transmission-priorgen=transmission.cli_tools:simulate_prior_stats
     ''',
     zip_safe=False
     )
